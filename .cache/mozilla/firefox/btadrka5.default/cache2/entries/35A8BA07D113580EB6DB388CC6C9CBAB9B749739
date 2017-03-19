@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+      
+      <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+      <title>numpy 1.12.1rc1 : Python Package Index</title>
+      <meta content=""/>
+      <meta content="NumPy: array processing for numbers, strings, records, and objects."/>
+       <link rel="alternate" type="application/rss+xml" title="RSS: 40 latest updates" href="https://pypi.python.org/pypi?:action=rss"/>
+       <link rel="alternate" type="application/rss+xml" title="RSS: 40 newest packages" href="https://pypi.python.org/pypi?:action=packages_rss"/>
+       <link rel="stylesheet" media="screen" href="/static/styles/screen-switcher-default.css" type="text/css"/>
+       <link media="screen" href="/static/styles/netscape4.css" type="text/css" rel="stylesheet"/>
+       <link media="print" href="/static/styles/print.css" type="text/css" rel="stylesheet"/>
+       <link media="screen" href="/static/styles/largestyles.css" type="text/css" rel="alternate stylesheet" title="large text"/>
+       <link media="screen" href="/static/styles/defaultfonts.css" type="text/css" rel="alternate stylesheet" title="default fonts"/>
+       <link rel="stylesheet" media="screen" href="/static/css/docutils.css" type="text/css"/>
+       <link rel="stylesheet" media="screen" href="/static/css/pygments.css" type="text/css"/>
+
+       <!-- allow pypi to override the standard pydotorg/docutils/etc. styles -->
+       <link rel="stylesheet" href="/static/css/pypi.css" type="text/css"/>
+       <link media="screen" rel="stylesheet" href="/static/css/pypi-screen.css" type="text/css"/>
+
+       
+       <meta name="google-site-verification" content="NSgF04qslVV4P7nymxJDSkWVK09zfdPTxgZfU3dNSoQ"/>
+       
+
+       
+ 
+ <meta name="description" content="NumPy: array processing for numbers, strings, records, and objects."/>
+ <link rel="meta" title="DOAP" type="application/rdf+xml" href="/pypi?:action=doap&amp;name=numpy&amp;version=1.12.1rc1"/>
+ <style type="text/css">
+  table.form th {white-space: pre;}
+ </style>
+
+
+       <style type="text/css">
+       </style>
+    </head>
+    <body>
+     
+
+      <!--  Logo  -->
+      <h1 id="logoheader">
+       <a accesskey="1" href="http://www.python.org" id="logolink">
+          <img src="/static/images/python-logo.png" alt="homepage" border="0" id="logo"/>
+       </a>
+      </h1>
+      <!--  Skip to Navigation  -->
+      <div class="skiptonav"><a accesskey="2" href="#left-hand-navigation"><img src="/static/images/trans.gif" alt="skip to navigation" border="0" id="skiptonav"/></a></div>
+      <div class="skiptonav"><a accesskey="3" href="#content-body"><img src="/static/images/trans.gif" alt="skip to content" border="0" id="skiptocontent"/></a></div>
+      <!--  Utility Menu  -->
+
+      <div id="utility-menu">
+        <!--  Search Box  -->
+        <div id="searchbox">
+          <form id="searchform" method="get" name="searchform" action="/pypi">
+            <input type="hidden" name=":action" value="search"/>
+            <div id="search">
+              <input class="input-text" id="term" name="term" autofocus="autofocus"/>
+              <input class="input-button" type="submit" name="submit" value="search" id="submit"/>
+            </div>
+          </form>
+        </div>
+<!-- XXX: reinstate this       <div id="screen-switcher"></div> -->
+      </div>
+      <div id="left-hand-navigation">
+
+        <!--  Main Menu NEED LEVEL TWO HEADER AND FOOTER -->
+        <div id="menu">
+          <ul class="level-one">
+            <li class="selected">
+              <a class="selected" href="/pypi">Package Index</a>
+
+              <ul class="level-two">
+
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=browse">Browse&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=submit_form">Package&nbsp;submission</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=list_classifiers">List&nbsp;trove&nbsp;classifiers</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=rss">RSS&nbsp;(latest&nbsp;40&nbsp;updates)</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=packages_rss">RSS&nbsp;(newest&nbsp;40&nbsp;packages)</a></li>
+                
+        <li><a href="http://wiki.python.org/moin/CheeseShopTutorial">PyPI Tutorial</a></li>
+        <li><a href="/security">PyPI Security</a></li>
+        <li><a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513504">PyPI Support</a></li>
+        <li><a href="https://github.com/pypa/pypi-legacy/issues">PyPI Bug Reports</a></li>
+        <li><a href="http://www.python.org/sigs/distutils-sig/">PyPI Discussion</a></li>
+        <li><a href="http://wiki.python.org/moin/CheeseShopDev">PyPI Developer Info</a></li>
+       </ul>
+
+            </li>
+
+
+
+
+            <li class=""><a href="http://www.python.org/about" class="" title="About The Python Language">About</a>
+            </li><li class=""><a href="http://www.python.org/news" class="" title="">News</a>
+            </li><li class=""><a href="http://www.python.org/doc" class="" title="">Documentation</a>
+            </li><li class=""><a href="http://www.python.org/download" title="">Download</a>
+
+
+            </li><li class=""><a href="http://www.python.org/community" class="" title="">Community</a>
+            </li><li class=""><a href="http://www.python.org/psf" class="" title="Python Software Foundation">Foundation</a>
+            </li><li class=""><a href="http://www.python.org/dev" class="" title="Python Core Language Development">Core Development</a>
+          </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="content-body">
+        <div id="body-main">
+          <div id="content">
+
+            <div id="breadcrumb">
+              <a href="/pypi">Package Index</a>
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/numpy">numpy</a>
+              
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/numpy/1.12.1rc1">1.12.1rc1</a>
+              
+
+            </div>
+
+            <div id="document-floating">
+
+            <div id="document-navigation" style="overflow-y: auto; max-height: 15em; overflow-x: hidden;">
+		
+                  <h4>Not Logged In</h4>
+
+                  <ul>
+		    
+                    <li><a href="/pypi?%3Aaction=login_form">Login</a></li>
+                    <li><a href="/pypi?%3Aaction=register_form">Register</a></li>
+                    <li><a href="/pypi?%3Aaction=forgotten_password_form">Lost Login?</a></li>
+		    <li>Use <a href="/pypi?:action=openid">OpenID</a>
+                      
+                        <a style="border: none;" href="/pypi?:action=login&amp;provider=Launchpad"><img width="16" height="16" alt="Launchpad" src="https://launchpad.net/@@/launchpad.png" title="Launchpad"/></a>
+                      
+                    </li>
+                    <li><a href="/google_login">Login with Google<img width="16" height="16" src="https://www.google.com/favicon.ico" title="Google Login" alt="Google Login"/></a></li>
+                  </ul>
+
+		
+
+		
+
+                <div id="statusdiv">
+                </div>
+            </div>
+        </div>
+        
+
+
+            <div class="section">
+              <h1>numpy 1.12.1rc1</h1>
+
+              
+<div id="download-button">
+ 
+ <a class="button green" style="float:right;" href="#downloads">Downloads &darr;</a>
+</div>
+
+<p style="font-style: italic">NumPy: array processing for numbers, strings, records, and objects.</p>
+
+
+
+
+
+
+
+
+<p>NumPy is a general-purpose array-processing package designed to
+efficiently manipulate large multi-dimensional arrays of arbitrary
+records without sacrificing too much speed for small multi-dimensional
+arrays.  NumPy is built on the Numeric code base and adds features
+introduced by numarray as well as an extended C-API and the ability to
+create arrays of arbitrary type which also makes NumPy suitable for
+interfacing with general-purpose data-base applications.</p>
+<p>There are also basic facilities for discrete fourier transform,
+basic linear algebra and random number generation.</p>
+<p>All numpy wheels distributed from pypi are BSD licensed.</p>
+<p>Windows wheels are linked against the ATLAS BLAS / LAPACK library, restricted
+to SSE2 instructions, so may not give optimal linear algebra performance for
+your machine. See <a href="http://docs.scipy.org/doc/numpy/user/install.html" rel="nofollow">http://docs.scipy.org/doc/numpy/user/install.html</a> for
+alternatives.</p>
+
+
+<a name="downloads">&nbsp;</a>
+<table class="list" style="margin-bottom: 10px;">
+<tr>
+  <th>File</th>
+  <th>Type</th>
+  <th>Py Version</th>
+  <th>Uploaded on</th>
+  <th style="text-align: right;">Size</th>
+</tr>
+
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/2e/94/4f92584af58f0fafb463521dc90a1d4642094c5d22d8a57f00f19f088b90/numpy-1.12.1rc1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=6f9da159637b542d847d43e56b3c04e1">numpy-1.12.1rc1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=6f9da159637b542d847d43e56b3c04e1">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/2e/94/4f92584af58f0fafb463521dc90a1d4642094c5d22d8a57f00f19f088b90/numpy-1.12.1rc1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">4MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/94/9c/dbd6a629321cf75811669979dbc8d32fba999d801c889316bd14565faefd/numpy-1.12.1rc1-cp27-cp27m-manylinux1_i686.whl#md5=2008f7244c850700d57e55316b9a74a3">numpy-1.12.1rc1-cp27-cp27m-manylinux1_i686.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=2008f7244c850700d57e55316b9a74a3">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/94/9c/dbd6a629321cf75811669979dbc8d32fba999d801c889316bd14565faefd/numpy-1.12.1rc1-cp27-cp27m-manylinux1_i686.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">11MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/3c/b2/e3c89f1835cd362af2c10b4f70c402f339763e5de613d2026e4a19cadfab/numpy-1.12.1rc1-cp27-cp27m-manylinux1_x86_64.whl#md5=d2d1a41a75e6fe7ffb8a648bf4f37306">numpy-1.12.1rc1-cp27-cp27m-manylinux1_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=d2d1a41a75e6fe7ffb8a648bf4f37306">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/3c/b2/e3c89f1835cd362af2c10b4f70c402f339763e5de613d2026e4a19cadfab/numpy-1.12.1rc1-cp27-cp27m-manylinux1_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">15MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/cd/a4/dd728d5b4c1a2cbab13284f467c4c595d0df924ec147c3804e72034be33b/numpy-1.12.1rc1-cp27-cp27mu-manylinux1_i686.whl#md5=68965b257291ae47c14aa2308aa873c6">numpy-1.12.1rc1-cp27-cp27mu-manylinux1_i686.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=68965b257291ae47c14aa2308aa873c6">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/cd/a4/dd728d5b4c1a2cbab13284f467c4c595d0df924ec147c3804e72034be33b/numpy-1.12.1rc1-cp27-cp27mu-manylinux1_i686.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">11MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/f5/49/8fbb03208b428d1759296ed4deb2c63b7fb023d94aacd2a5eeb07bf042f1/numpy-1.12.1rc1-cp27-cp27mu-manylinux1_x86_64.whl#md5=c9a592fc298ef7d6a788c2936e56e941">numpy-1.12.1rc1-cp27-cp27mu-manylinux1_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=c9a592fc298ef7d6a788c2936e56e941">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/f5/49/8fbb03208b428d1759296ed4deb2c63b7fb023d94aacd2a5eeb07bf042f1/numpy-1.12.1rc1-cp27-cp27mu-manylinux1_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">15MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/97/ac/40ed6ffff352ed641f29ca29e5bf7f9102420d0c2dbfe4579452906556fb/numpy-1.12.1rc1-cp27-none-win32.whl#md5=9f788341df108abaf5a73642fb227a3a">numpy-1.12.1rc1-cp27-none-win32.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=9f788341df108abaf5a73642fb227a3a">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/97/ac/40ed6ffff352ed641f29ca29e5bf7f9102420d0c2dbfe4579452906556fb/numpy-1.12.1rc1-cp27-none-win32.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">6MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/84/ed/d1de8469357ed354d617efd271a86b6a41bfc0d8ec4bd3b96b3f328dacbe/numpy-1.12.1rc1-cp27-none-win_amd64.whl#md5=470850b934b3e1bbffb983007e4002a9">numpy-1.12.1rc1-cp27-none-win_amd64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=470850b934b3e1bbffb983007e4002a9">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/84/ed/d1de8469357ed354d617efd271a86b6a41bfc0d8ec4bd3b96b3f328dacbe/numpy-1.12.1rc1-cp27-none-win_amd64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp27
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">7MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/c7/9a/6625d103ff5d8e87bccacd9cbb2a21c1bfff0c3ac7b4a727daea69ded28a/numpy-1.12.1rc1-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=a1ca4a95536fa7aa552de94721b4e212">numpy-1.12.1rc1-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=a1ca4a95536fa7aa552de94721b4e212">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/c7/9a/6625d103ff5d8e87bccacd9cbb2a21c1bfff0c3ac7b4a727daea69ded28a/numpy-1.12.1rc1-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp34
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">4MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/90/61/17148de4dcbb4e837880b93c15b5791583f59a0db6901a8adf2f07d3516a/numpy-1.12.1rc1-cp34-cp34m-manylinux1_i686.whl#md5=ae62f3a079daf3e480c9b82d2baf9250">numpy-1.12.1rc1-cp34-cp34m-manylinux1_i686.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=ae62f3a079daf3e480c9b82d2baf9250">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/90/61/17148de4dcbb4e837880b93c15b5791583f59a0db6901a8adf2f07d3516a/numpy-1.12.1rc1-cp34-cp34m-manylinux1_i686.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp34
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">12MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/94/ab/62105f712ceec292a413a0002339d4a33cf9fa1672a5b8491466ced9ef29/numpy-1.12.1rc1-cp34-cp34m-manylinux1_x86_64.whl#md5=fc6dfaec9735cfd61ad5271c2f8f7c4d">numpy-1.12.1rc1-cp34-cp34m-manylinux1_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=fc6dfaec9735cfd61ad5271c2f8f7c4d">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/94/ab/62105f712ceec292a413a0002339d4a33cf9fa1672a5b8491466ced9ef29/numpy-1.12.1rc1-cp34-cp34m-manylinux1_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp34
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">16MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/ed/27/1ec134f1c031942addaeb97ee9c95d797a1eb2c948f7e008777e6ee94993/numpy-1.12.1rc1-cp34-none-win32.whl#md5=6a2c6058ae104df1298d57695f5e4a01">numpy-1.12.1rc1-cp34-none-win32.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=6a2c6058ae104df1298d57695f5e4a01">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/ed/27/1ec134f1c031942addaeb97ee9c95d797a1eb2c948f7e008777e6ee94993/numpy-1.12.1rc1-cp34-none-win32.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp34
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">6MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/28/48/056f62ffbf03a2521f3b37a11704a4f35ac057f0897397b6055677ef9729/numpy-1.12.1rc1-cp34-none-win_amd64.whl#md5=67cc902f361323bba7f60cf236d72fc7">numpy-1.12.1rc1-cp34-none-win_amd64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=67cc902f361323bba7f60cf236d72fc7">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/28/48/056f62ffbf03a2521f3b37a11704a4f35ac057f0897397b6055677ef9729/numpy-1.12.1rc1-cp34-none-win_amd64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp34
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">7MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/31/ae/27a1a00baaea8195339d451215b3968997cfab937797187b579537ff6a5b/numpy-1.12.1rc1-cp35-cp35m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=4bcb3d5b7946e828402c4d0922493e2c">numpy-1.12.1rc1-cp35-cp35m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=4bcb3d5b7946e828402c4d0922493e2c">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/31/ae/27a1a00baaea8195339d451215b3968997cfab937797187b579537ff6a5b/numpy-1.12.1rc1-cp35-cp35m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp35
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">4MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/a9/83/2798be8ce700e3738787f1cd7fcdbab3a0898deea77e7e5ccc3e4369a2a7/numpy-1.12.1rc1-cp35-cp35m-manylinux1_i686.whl#md5=48961a54ae03fb68f1269d66d7ba006a">numpy-1.12.1rc1-cp35-cp35m-manylinux1_i686.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=48961a54ae03fb68f1269d66d7ba006a">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/a9/83/2798be8ce700e3738787f1cd7fcdbab3a0898deea77e7e5ccc3e4369a2a7/numpy-1.12.1rc1-cp35-cp35m-manylinux1_i686.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp35
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">12MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/98/56/c7b952ec8a5f1f6905d35e835bbcb3c08a5f3e519840e08e3700f49a642a/numpy-1.12.1rc1-cp35-cp35m-manylinux1_x86_64.whl#md5=cf11aa3abfed14578986b6cbdbfd09c3">numpy-1.12.1rc1-cp35-cp35m-manylinux1_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=cf11aa3abfed14578986b6cbdbfd09c3">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/98/56/c7b952ec8a5f1f6905d35e835bbcb3c08a5f3e519840e08e3700f49a642a/numpy-1.12.1rc1-cp35-cp35m-manylinux1_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp35
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">15MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/a0/fb/dd3a619394d16ef86c89b0402a03cac21be28d0661687595b93ae2a26db4/numpy-1.12.1rc1-cp35-none-win32.whl#md5=ea49287c2e2fcecd34b9ef68f6519380">numpy-1.12.1rc1-cp35-none-win32.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=ea49287c2e2fcecd34b9ef68f6519380">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/a0/fb/dd3a619394d16ef86c89b0402a03cac21be28d0661687595b93ae2a26db4/numpy-1.12.1rc1-cp35-none-win32.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp35
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">6MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/96/86/da62d55765091b1c440c8d069b44ce1b6113016e3ba927d7e5149aeda7d1/numpy-1.12.1rc1-cp35-none-win_amd64.whl#md5=cfc541c007f2dc5694f2ab530cefff25">numpy-1.12.1rc1-cp35-none-win_amd64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=cfc541c007f2dc5694f2ab530cefff25">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/96/86/da62d55765091b1c440c8d069b44ce1b6113016e3ba927d7e5149aeda7d1/numpy-1.12.1rc1-cp35-none-win_amd64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp35
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">7MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/3a/57/ad11e424827fded614ca792b77587479a7d7a302b455117402a150f889d7/numpy-1.12.1rc1-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=24f835878000b1bbf54045eda1cf32ec">numpy-1.12.1rc1-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=24f835878000b1bbf54045eda1cf32ec">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/3a/57/ad11e424827fded614ca792b77587479a7d7a302b455117402a150f889d7/numpy-1.12.1rc1-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp36
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">4MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/fe/38/2e3324aaea83e1eab43b3cdb0ecec9c76d35886d7566d5fa582d667230ad/numpy-1.12.1rc1-cp36-cp36m-manylinux1_i686.whl#md5=d1825676d2590a828c1589bc89a05ddc">numpy-1.12.1rc1-cp36-cp36m-manylinux1_i686.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=d1825676d2590a828c1589bc89a05ddc">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/fe/38/2e3324aaea83e1eab43b3cdb0ecec9c76d35886d7566d5fa582d667230ad/numpy-1.12.1rc1-cp36-cp36m-manylinux1_i686.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp36
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">12MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/71/d1/dc37be2dd357f14276703a05fcedc639dc3a815f7e47285041553b11e77b/numpy-1.12.1rc1-cp36-cp36m-manylinux1_x86_64.whl#md5=296335a1576f38d6b0c59b493a0d7ba8">numpy-1.12.1rc1-cp36-cp36m-manylinux1_x86_64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=296335a1576f38d6b0c59b493a0d7ba8">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/71/d1/dc37be2dd357f14276703a05fcedc639dc3a815f7e47285041553b11e77b/numpy-1.12.1rc1-cp36-cp36m-manylinux1_x86_64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp36
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">16MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/b7/93/095fb5af8767db576d7dc1719bddb35ca5364f91a7ff842cf9ef3be72092/numpy-1.12.1rc1-cp36-none-win32.whl#md5=782ee95bc89bcc1966034c84c8b217b4">numpy-1.12.1rc1-cp36-none-win32.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=782ee95bc89bcc1966034c84c8b217b4">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/b7/93/095fb5af8767db576d7dc1719bddb35ca5364f91a7ff842cf9ef3be72092/numpy-1.12.1rc1-cp36-none-win32.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp36
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">6MB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/e4/7f/8acbb79e0d0747ab4b6d40475d0a3d3b2668baf1f1293b0415b19d09daeb/numpy-1.12.1rc1-cp36-none-win_amd64.whl#md5=c140f50a4a560dd18b2dbde287925964">numpy-1.12.1rc1-cp36-none-win_amd64.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=c140f50a4a560dd18b2dbde287925964">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/e4/7f/8acbb79e0d0747ab4b6d40475d0a3d3b2668baf1f1293b0415b19d09daeb/numpy-1.12.1rc1-cp36-none-win_amd64.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    cp36
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">7MB</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/0b/84/2b79ab0ca3a95442ae14847b50fc437438df8792dce1adb798695de22845/numpy-1.12.1rc1.zip#md5=091bc6601fe74d0e5a00c22c3d97d9bc">numpy-1.12.1rc1.zip</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=091bc6601fe74d0e5a00c22c3d97d9bc">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/0b/84/2b79ab0ca3a95442ae14847b50fc437438df8792dce1adb798695de22845/numpy-1.12.1rc1.zip.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Source
+  </td>
+  <td>
+    
+  </td>
+  <td>2017-03-07</td>
+  <td style="text-align: right;">4MB</td>
+
+</tr>
+
+<tr><td id="last" colspan="6"/></tr>
+  </table>
+
+
+
+<ul class="nodot">
+ <li>
+  <strong>Author:</strong>
+  <span>NumPy Developers</span>
+ </li>
+
+ 
+
+ 
+
+<!-- The <th> elements below are a terrible terrible hack for setuptools -->
+ <li>
+  <strong>Home Page:</strong>
+  <!-- <th>Home Page -->
+  <a href="http://www.numpy.org">http://www.numpy.org</a>
+ </li>
+
+
+ 
+
+ <li>
+  <strong>Download URL:</strong>
+  <!-- <th>Download URL -->
+  <a href="http://sourceforge.net/projects/numpy/files/NumPy/">http://sourceforge.net/projects/numpy/files/NumPy/</a>
+ </li>
+
+
+ 
+
+ <li>
+  <strong>License:</strong>
+  
+  
+  <span>BSD</span>
+  
+ </li>
+
+ <li>
+  <strong>Platform:</strong>
+  <span>Windows</span>
+ </li>
+
+<!-- TODO: add link to products in follow dependencies... -->
+ 
+ 
+ 
+
+ <li>
+  <strong>Categories</strong>
+  <ul class="nodot">
+   <li>
+    <a href="/pypi?:action=browse&amp;c=5">Development Status :: 5 - Production/Stable</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=30">Intended Audience :: Developers</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=40">Intended Audience :: Science/Research</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=54">License :: OSI Approved</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=145">Operating System :: MacOS</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=150">Operating System :: Microsoft :: Windows</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=160">Operating System :: POSIX</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=174">Operating System :: Unix</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=181">Programming Language :: C</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=214">Programming Language :: Python</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=527">Programming Language :: Python :: 2</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=532">Programming Language :: Python :: 2.7</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=533">Programming Language :: Python :: 3</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=587">Programming Language :: Python :: 3.4</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=607">Programming Language :: Python :: 3.5</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=611">Programming Language :: Python :: 3.6</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=553">Programming Language :: Python :: Implementation :: CPython</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=385">Topic :: Scientific/Engineering</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=405">Topic :: Software Development</a>
+   </li>
+  </ul>
+ </li>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ <li>
+  <strong>Package Index Owner:</strong>
+  <span>teoliphant, jarrodmillman, cdavid, rgommers, certik, charlesr.harris, jtaylor, matthew.brett</span>
+ </li>
+
+ <li>
+  <strong>Package Index Maintainer:</strong>
+  <span>rkern, jarrodmillman, cdavid, rgommers, certik, jtaylor, matthew.brett, charlesr.harris</span>
+ </li>
+
+ <li>
+  <strong><a href="https://github.com/edumbill/doap/wiki">DOAP</a> record:</strong>
+  <a href="/pypi?:action=doap&amp;name=numpy&amp;version=1.12.1rc1">numpy-1.12.1rc1.xml</a>
+ </li>
+
+</ul>
+
+
+
+
+
+            </div>
+
+
+          </div>
+          <div id="footer">
+            <div id="credits">
+              <div style="float: left; margin-right: 1em;" id="badges">
+                
+                <img src="https://img.shields.io/badge/ipv6-go!-green.svg" alt="ipv6 ready" title="ipv6 ready" border="0"/><br/>
+                <img src="https://img.shields.io/badge/http2-go!-green.svg" alt="http2 ready" title="http2 ready" border="0"/>
+                
+              </div>
+              <div style="float: right" id="donations">
+                <a href="http://www.python.org/about/website">Website maintained by the Python community</a><br/>
+                <a href="https://www.fastly.com/" title="Real-time CDN services provided by Fastly">Real-time CDN by Fastly</a> /
+                <a href="http://developer.rackspace.com/" title="Server hosting by Rackspace Open Source support">Hosting by Rackspace</a><br/>
+                <a href="https://aws.amazon.com/s3/" title="Object storage provided by Amazon S3">Object storage by Amazon S3</a> /
+                <a href="http://www.timparkin.co.uk/" title="Design by Tim Parkin, Yorkshire man, photographer and developer">Design by Tim Parkin</a>
+              </div>
+            </div>
+            Copyright ¬© 1990-2017, <a href="http://www.python.org/psf">Python Software Foundation</a><br/>
+            <a href="https://pypi.org/policy/terms-of-use/">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55961911-1', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+      </script>
+      
+
+      <script type="text/javascript" src="//statuspage-production.s3.amazonaws.com/se-v2.js">
+      </script>
+      <script type="text/javascript">
+        var sp = new StatusPage.page({ page : '2p66nmmycsj3' });
+        sp.summary({
+          // <![CDATA[
+          success: function(data) {
+            var div = document.getElementById('statusdiv');
+            var reports = "</br><h4 id='statusbox'>Status</h4>\n";
+            var outage = 0;
+            var maintenance = 0;
+            for (i in data.incidents) {
+              var incident = data.incidents[i];
+              var message, status = incident.status;
+              if (status === 'scheduled') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' scheduled.</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status === 'in_progress') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' is currently in progress.' + '</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status !== 'resolved' && status !== 'postmortem' && status !== 'completed') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ': ' + incident.status + '</a></li>\n';
+                reports += message;
+                outage += 1;
+              }
+            }
+            for (i in data.scheduled_maintenances) {
+              var incident = data.scheduled_maintenances[i];
+              var message, status = incident.status;
+              if (status === 'scheduled') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' scheduled.</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status === 'in_progress') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' is currently in progress.' + '</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status !== 'resolved' && status !== 'postmortem' && status !== 'completed') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ': ' + incident.status + '</a></li>\n';
+                reports += message;
+                outage += 1;
+              }
+            }
+            if (outage + maintenance === 0) {
+              reports += "<li><a href='http://status.python.org'>Nothing to report</a></li>";
+            }
+            div.innerHTML=reports;
+            if (outage > 0) {
+              var statusbox = document.getElementById("statusbox");
+              statusbox.style.background = '#FC234A';
+            }
+          }
+          // ]]>
+        });
+      </script>
+
+    </body>
+  </html>
+
+ıÒqÀ      X≈ŒÛX≈ŒÙ=àT|       #    :https://pypi.python.org/pypi/numpy necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2.0 200 OK
+Date: Sun, 12 Mar 2017 22:43:00 GMT
+Content-Type: text/html; charset=utf-8
+x-clacks-overhead: GNU Terry Pratchett
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Public-Key-Pins: max-age=600; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="5C8kvU039KouVrl52D0eZSGf4Onjo4Khs8tmyTlV3nU="; pin-sha256="5C8kvU039KouVrl52D0eZSGf4Onjo4Khs8tmyTlV3nU="; pin-sha256="lCppFqbkrlJ3EcVFAkeip0+44VaoJUymbnOaEUk7tEU="; pin-sha256="TUDnr0MEoJ3of7+YliBMBVFB4/gJsv5zO7IxD9+YoWI="; pin-sha256="x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=";
+fastly-debug-digest: 3b9094709bf5c4fdab8545ed12cd562908e5d9c7db825282b9014f458904db6d
+Cache-Control: private
+Accept-Ranges: bytes, bytes
+Via: 1.1 varnish, 1.1 varnish
+X-Served-By: cache-iad2132-IAD, cache-hhn1546-HHN
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1489358579.795460,VS0,VE275
+X-Frame-Options: deny
+x-xss-protection: 1; mode=block
+X-Content-Type-Options: nosniff
+x-permitted-cross-domain-policies: none
+X-Firefox-Spdy: h2
+ original-response-headers Date: Sun, 12 Mar 2017 22:43:00 GMT
+Content-Type: text/html; charset=utf-8
+x-clacks-overhead: GNU Terry Pratchett
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Public-Key-Pins: max-age=600; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="5C8kvU039KouVrl52D0eZSGf4Onjo4Khs8tmyTlV3nU="; pin-sha256="5C8kvU039KouVrl52D0eZSGf4Onjo4Khs8tmyTlV3nU="; pin-sha256="lCppFqbkrlJ3EcVFAkeip0+44VaoJUymbnOaEUk7tEU="; pin-sha256="TUDnr0MEoJ3of7+YliBMBVFB4/gJsv5zO7IxD9+YoWI="; pin-sha256="x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=";
+Accept-Ranges: bytes
+Via: 1.1 varnish
+fastly-debug-digest: 3b9094709bf5c4fdab8545ed12cd562908e5d9c7db825282b9014f458904db6d
+Cache-Control: private
+Accept-Ranges: bytes
+Via: 1.1 varnish
+X-Served-By: cache-iad2132-IAD, cache-hhn1546-HHN
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1489358579.795460,VS0,VE275
+X-Frame-Options: deny
+x-xss-protection: 1; mode=block
+X-Content-Type-Options: nosniff
+x-permitted-cross-domain-policies: none
+X-Firefox-Spdy: h2
+ uncompressed-len 0 net-response-time-onstart 391 net-response-time-onstop 444 predictor::resource-count 13 predictor::https://pypi.python.org/static/styles/screen-switcher-default.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/styles/netscape4.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/styles/print.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/css/docutils.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/css/pygments.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/css/pypi.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/css/pypi-screen.css 1,1,1489358579,4096 predictor::https://statuspage-production.s3.amazonaws.com/se-v2.js 1,1,1489358579,4096 predictor::https://pypi.python.org/static/styles/styles.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/styles/defaultfonts.css 1,1,1489358579,4096 predictor::https://pypi.python.org/static/styles/largestyles.css 1,1,1489358579,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1489358579,4096 predictor::https://www.google-analytics.com/plugins/ua/linkid.js 1,1,1489358579,4096   èg

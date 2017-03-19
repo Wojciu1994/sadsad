@@ -1,0 +1,20 @@
+logrotate state -- version 2
+"/home/wojtek/.cache/upstart/*.log" 2017-3-12-22:0:0
+"/home/wojtek/.cache/upstart/indicator-session.log" 2017-3-12-22:20:59
+"/home/wojtek/.cache/upstart/unity-panel-service.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/ssh-agent.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/bamfdaemon.log" 2017-3-12-22:20:59
+"/home/wojtek/.cache/upstart/gnome-keyring-ssh.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/indicator-sound.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/gpg-agent.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/update-notifier-release.log" 2017-3-19-11:0:0
+"/home/wojtek/.cache/upstart/indicator-keyboard.log" 2017-3-12-22:20:59
+"/home/wojtek/.cache/upstart/upstart-event-bridge.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/window-stack-bridge.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/indicator-printers.log" 2017-3-12-22:20:59
+"/home/wojtek/.cache/upstart/unity-settings-daemon.log" 2017-3-11-14:3:27
+"/home/wojtek/.cache/upstart/hud.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/gnome-keyring.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/unity7.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/at-spi2-registryd.log" 2017-3-19-11:32:13
+"/home/wojtek/.cache/upstart/dbus.log" 2017-3-19-11:32:13
